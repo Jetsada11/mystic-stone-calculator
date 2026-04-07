@@ -23,7 +23,7 @@ export default function StoneCalculator() {
   const [inputMode, setInputMode] = useState<InputMode>("ds");
   const [dsValue, setDsValue] = useState("");
   const [stoneCount, setStoneCount] = useState("");
-  const [taxEnabled, setTaxEnabled] = useState(true);
+  const [taxEnabled, setTaxEnabled] = useState(false);
   const [result, setResult] = useState<null | {
     stones: number;
     taxAmount: number;
