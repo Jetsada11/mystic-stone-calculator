@@ -1,10 +1,9 @@
 import { useState, useCallback } from "react";
-
-const mysticStoneImg = "https://raw.githubusercontent.com/Jetsada11/Buy-Clan-Stones/main/Selling_Clan_Stones/image/Mystic%20Stone.png";
-const darkenedStoneImg = "https://raw.githubusercontent.com/Jetsada11/Buy-Clan-Stones/main/Selling_Clan_Stones/image/Darkened%20Stone.png";
-const dsIcon = "https://raw.githubusercontent.com/Jetsada11/Buy-Clan-Stones/main/Selling_Clan_Stones/image/DS.png";
-const clanCoinImg = "https://raw.githubusercontent.com/Jetsada11/Buy-Clan-Stones/main/Selling_Clan_Stones/image/Clan%20Coins.png";
-const goldImg = "https://raw.githubusercontent.com/Jetsada11/Buy-Clan-Stones/main/Selling_Clan_Stones/image/Gold.png";
+import mysticStoneImg from "@/assets/mystic-stone.png";
+import darkenedStoneImg from "@/assets/darkened-stone.png";
+import dsIcon from "@/assets/ds-icon.png";
+import clanCoinImg from "@/assets/clan-coin.png";
+import goldImg from "@/assets/gold-icon.png";
 
 type StoneType = "mystic" | "darkened";
 type InputMode = "ds" | "stone";
